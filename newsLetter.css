@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', serif;
+}
+
+html, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+
+}
+
+.container {
+  width: 60%;
+  margin: 5rem auto 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin:4rem auto;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container .logo {
+  margin-bottom: 3rem;
+}
+
+.container .h1 {
+  font-size: 3rem;
+  margin-bottom: 1.25rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.container p {
+  font-size: 1.25rem;
+  color: #6C727F;
+}
+
+input {
+  text-align: center;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border : 1px solid #E5E7EB;
+  background: #F9FAFB;
+  outline: none;
+  margin-bottom: 1.2rem;
+}
+
+input::placeholder {
+  font-weight: 500;
+}
+
+.card button {
+  height: 3rem;
+  background: #284BCE;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.card p {
+  font-size : .87rem;
+  margin: 0;
+}
+
